@@ -16,35 +16,35 @@ jobs:
       - name: Install ECharts WWW
         working-directory: tmp-workspace
         run: |
-          git clone --depth 1 https://github.com/apache/echarts-www
+          git clone --depth 1 https://github.com/imaegoo/echarts-www
           cd echarts-www
           npm install
 
       - name: Install ECharts Doc
         working-directory: tmp-workspace
         run: |
-          git clone --depth 1 https://github.com/apache/echarts-doc
+          git clone --depth 1 https://github.com/imaegoo/echarts-doc
           cd echarts-doc
           npm install
 
       - name: Install ECharts Example
         working-directory: tmp-workspace
         run: |
-          git clone --depth 1 https://github.com/apache/echarts-examples
+          git clone --depth 1 https://github.com/imaegoo/echarts-examples
           cd echarts-examples
           npm install
 
       - name: Install ECharts Theme Builder
         working-directory: tmp-workspace
         run: |
-          git clone --depth 1 https://github.com/apache/echarts-theme-builder
+          git clone --depth 1 https://github.com/imaegoo/echarts-theme-builder
           cd echarts-theme-builder
           npm install
 
       - name: Install ECharts Handbook
         working-directory: tmp-workspace
         run: |
-          git clone https://github.com/apache/echarts-handbook
+          git clone https://github.com/imaegoo/echarts-handbook
           cd echarts-handbook
           npm install
 
