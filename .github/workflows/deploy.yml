@@ -70,5 +70,6 @@ jobs:
           clean-exclude: |
             .*
             v4/**/*
+            cdn/**/*
             README.md
             package.json
